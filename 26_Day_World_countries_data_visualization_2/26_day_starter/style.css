@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    background-color: #eeeeee;
+    margin: auto;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .top-container {
+    color: white;
+    width: auto;
+    padding: 10%;
+    background-image: url("images/globe-2.jpg");
+    background-size: cover;
+  }
+  
+  h1 {
+    letter-spacing: 1rem;
+    margin-top: 0;
+  }
+  
+  .bot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+    background-color: #eeeeee;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .country {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/map_image.jpg);
+    background-size: cover;
+    border-style: groove;
+    font-weight: 400;
+    padding: 50px;
+    margin: 15px;
+    width: 5%;
+    height: 72px;
+  }
+  
+  .select-input input,
+  button {
+    background-color: #08d9d6;
+    color: white;
+    padding: 1em;
+    margin: 20px 0;
+  }
+  
+  .search-input input {
+    text-align: center;
+    font-size: large;
+    padding: 10px 150px;
+    margin: 10px;
+    border-radius: 2rem;
+    border-style: solid;
+  }
+  
+  .clicked {
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+  }
+  

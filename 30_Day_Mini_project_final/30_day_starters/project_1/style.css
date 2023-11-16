@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    margin: auto;
+  }
+  
+  h1 {
+    color: #fd8d14;
+    letter-spacing: 0.25rem;
+    font-size: xx-large;
+  }
+  
+  .heading {
+    background-color: #eeeeee;
+    padding: 20px;
+  }
+  .heading__status {
+    font-weight: bold;
+  }
+  .heading__description {
+    font-family: "Courier New", Courier, monospace;
+    font-style: italic;
+    color: #fd8d14;
+  }
+  .container__form--input {
+    text-align: left;
+    color: #fd8d14;
+    border-style: groove;
+    width: 40%;
+    padding: 13px;
+    margin: 25px;
+    border-radius: 25px;
+  }
+  
+  .container__form--btn {
+    background-color: #fd8d14;
+    font-weight: 600;
+    letter-spacing: 0.4mm;
+    padding: 0.8rem 3vw;
+    border-radius: 25px;
+    border-style: none;
+    margin: 10px;
+  }
+  /* .container__form--btn--link{
+      color: #FD8D14;
+  } */
+  
+  .container__list {
+    display: flex;
+    padding: 0;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: #f0f0f0;
+  }
+  .container__list--item {
+    display: grid;
+    width: 12%;
+    margin: 10px;
+    padding: 25px;
+    text-align: left;
+    background-color: white;
+  }
+  .container__list--item--title {
+    text-align: center;
+    padding: 15px;
+    color: #fd8d14;
+  }
+  
+  .wrapper {
+    border-style: groove;
+    padding: 10px;
+  }
+  
+  .graph-buttons .population,
+  .languages {
+    padding: 10px 40px;
+    margin: 10px;
+  }
+  #stat {
+    display: flex;
+    margin: 40px auto;
+    width: 60%;
+  }
+  .chart {
+    background-color: #fd8d14;
+  }
+  
+  .data1 {
+    display: grid;
+    gap: 20px;
+    text-align: left;
+    justify-items: flex-start;
+    justify-content: space-around;
+    width: 25%;
+  }
+  .data2 {
+    display: grid;
+    gap: 7px;
+    width: 100%;
+    padding: 0 1%;
+  }
+  .data3 {
+    width: 25%;
+    display: grid;
+    justify-content: start;
+    gap: 20px;
+  }
+  

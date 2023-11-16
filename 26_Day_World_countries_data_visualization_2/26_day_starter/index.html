@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>World Countries List</title>
+    <link rel="icon" href="image/earth.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f35e58d2c9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="top-container">
+        <h1>WORLD COUNTRIES LIST</h1>
+        <h3 class="subtitle"></h3>
+        <h4 class="description"></h4>
+
+        <div class="select-input">
+          <button class="fist-word button" type="button" value="">
+            <strong>STARTING WORD</strong>
+          </button>
+          <button class="any-word button" type="button" value="">
+            <strong>SEARCH WITH ANY WORD</strong>
+          </button>
+          <button class="sorted-word button" type="button" value="a-z">
+            <strong><i class="fa-solid fa-arrow-down-a-z fa-xl"></i></strong>
+          </button>
+        </div>
+
+        <div class="search-input">
+          <input type="text" id="myInput" placeholder="Search country ..." />
+          <label for=""
+            ><i
+              class="fa-solid fa-magnifying-glass fa-2xl"
+              style="color: #000000"
+            ></i
+          ></label>
+        </div>
+      </div>
+
+      <div class="bot-container"></div>
+    </div>
+    <script src="./data/countries.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background-image: url(images/galaxy.gif);
+}
+
+h1 {
+  color: #ffffff;
+}
+#myForm {
+  padding: 20px;
+  margin: 5px;
+}
+#mass {
+  padding: 1rem 5em;
+  padding-left: 1rem;
+  margin: 0.5rem;
+}
+
+#myButton {
+  background-color: #b2b2b2;
+  padding: 1rem 1em;
+  margin: 0.5rem;
+}
+#selection {
+  padding: 1rem 2em;
+  padding-left: 1rem;
+  margin: 0.5rem;
+}
+option {
+  background-color: #b2b2b2;
+}
+
+#flex-container {
+  margin: auto;
+  align-items: center;
+  padding: 20px 15px;
+  background-color: #b2b2b2;
+  width: 70%;
+}
+#flex-item__image {
+  margin: auto;
+  width: 70%;
+}
+#flex-item__description {
+  width: 50%;
+  margin: 5px auto;
+  padding: 1px 10px;
+}

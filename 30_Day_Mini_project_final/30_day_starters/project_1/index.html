@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>World Countries Data</title>
+    <link rel="icon" type="image/png" href="image\earth-title.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f35e58d2c9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Heading -->
+    <section class="heading">
+      <h1 class="heading__title">World Countries Data</h1>
+      <p class="heading__status"></p>
+      <p class="heading__description"></p>
+    </section>
+    <!-- End of heading section-->
+
+    <!-- Input Section  -->
+    <section class="container" id="input">
+      <form class="container__form" action="">
+        <input
+          type="text"
+          class="container__form--input"
+          autofocus
+          placeholder="Search countries by name, city and languages"
+        />
+        <br />
+        <button class="container__form--btn" type="button">Name</button>
+        <button class="container__form--btn" type="button">Capital</button>
+        <button class="container__form--btn" type="button">Population</button>
+        <a
+          class="container__form--btn--link"
+          style="color: #fd8d14"
+          href="#chart"
+          ><i class="fa-regular fa-chart-bar fa-2xl"></i
+        ></a>
+      </form>
+      <div class="container__wrapper"><ul class="container__list"></ul></div>
+    </section>
+    <!-- End Of input section -->
+
+    <!-- Chart Section Start Here -->
+    <section class="wrapper" id="chart">
+      <div class="graph-buttons">
+        <button class="population" style="background-color: #f86f03">
+          Population
+        </button>
+        <button class="languages" style="background-color: #f86f03">
+          Languages
+        </button>
+        <h4 class="graph-title" style="margin-top: 5px"></h4>
+      </div>
+      <div class="graphs">
+        <div class="graph-wrapper" id="stat"></div>
+      </div>
+    </section>
+    <!-- End Of Chart Section -->
+
+    <script src="./data/countries_data.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

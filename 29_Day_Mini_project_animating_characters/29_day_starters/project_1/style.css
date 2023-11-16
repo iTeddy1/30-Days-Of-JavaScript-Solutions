@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 50px;
+  
+    background-color: #f1f0e8;
+  }
+  h1 {
+    width: 60%;
+    height: 80%;
+    font-style: normal;
+    font-size: 2rem;
+    animation: fade-in ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  span {
+    line-height: 2cm;
+    padding: 3px;
+    margin: 5px 10px;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

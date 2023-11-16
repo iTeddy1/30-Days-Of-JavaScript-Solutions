@@ -1,0 +1,17 @@
+body {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.country {
+    padding: 60px 30px;
+    margin: 3px;
+    width: 12%;
+    height: 100px;
+    display: inline-table;
+    border-color: 0.5px black;
+    border-style:groove;
+}
+
+  

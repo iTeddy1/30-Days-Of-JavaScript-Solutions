@@ -1,0 +1,30 @@
+body {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family: san-serif, helvetica;
+}
+
+#clock {
+    font-size: 18px;
+    margin: 30px 15rem;
+    padding: 15px 10px;
+}
+
+.Year{
+    font-size: 40px;
+}
+
+ul{
+    list-style-type: none;
+    margin: auto;
+}
+
+.item {
+    padding: 20px;
+    margin-top: 3px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}

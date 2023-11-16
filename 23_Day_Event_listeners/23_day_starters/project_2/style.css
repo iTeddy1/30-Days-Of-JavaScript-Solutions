@@ -1,0 +1,30 @@
+body{   
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+hr{
+    border-style: none;
+}
+#keyboard {
+    padding: 0px 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    right: 25%;
+}
+#keycode {
+    margin: 20px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10%;
+    padding: 120px 80px;
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    bottom: 30%;
+}
